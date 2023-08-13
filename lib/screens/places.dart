@@ -23,7 +23,7 @@ class PlaceScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: PlacesList(
+      body: const PlacesList(
         places: [],
       ),
     );

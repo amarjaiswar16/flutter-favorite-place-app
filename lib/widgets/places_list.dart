@@ -1,4 +1,4 @@
-import 'package:favorite_places/Models/Place.dart';
+import 'package:favorite_places/Models/place.dart';
 import 'package:flutter/material.dart';
 
 class PlacesList extends StatelessWidget {
