@@ -26,8 +26,11 @@ class PlacesList extends StatelessWidget {
                 places[index].title,
                 style: Theme.of(context).textTheme.titleMedium!.copyWith(
                       color: Theme.of(context).colorScheme.onBackground,
-                    ),
+                    ), 
               ),
+              onTap: () {
+                print('Tapped');
+              },
             ));
   }
 }
